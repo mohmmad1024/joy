@@ -1,7 +1,8 @@
 FROM ubuntu
 LABEL maintainer="Mohammed Alsahli <mohmmad1024@gmail.com>"
 
-RUN mkdir -p /app && cd /app
+RUN mkdir -p /app 
+RUN cd /app
 
 #WORKDIR /app
 
