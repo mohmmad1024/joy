@@ -1,6 +1,8 @@
 FROM ubuntu
 LABEL maintainer="Mohammed Alsahli <mohmmad1024@gmail.com>"
 
+RUN mkdir -p /app
+
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y build-essential libssl-dev libpcap-dev libcurl4-openssl-dev git 
